@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.back-arrow-wrapper {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: #edf2f7;
+  cursor: pointer;
+}
+
+.back-arrow-wrapper .fa-chevron-left {
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.header-text {
+  font-size: 14px;
+}
+
+.search-cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-cart-wrapper {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #edf2f7;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.search-cart-wrapper .fa-search {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}

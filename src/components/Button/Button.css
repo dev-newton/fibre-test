@@ -1,0 +1,33 @@
+.nav-btn-wrapper {
+  width: 100%;
+  list-style: none;
+}
+
+.nav-btn {
+  border-radius: 4px;
+  padding: 12px;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 95%;
+  transition: 250ms;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  transition: 0.2s ease-in-out all;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #227eff;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #627483;
+  border: 1px solid #627483;
+}

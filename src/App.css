@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.header-text {
+  margin: 20px 20px;
+}
+
+.location-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #edf2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-dropdown {
+  position: absolute;
+  z-index: 99;
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px -8px 28px 0px #00000014;
+}
+
+.location-dropdown-item {
+  text-align: left;
+  text-decoration: none;
+  font-size: 12px;
+  color: #2e4457;
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  cursor: pointer;
+}
+
+.location-dropdown-item:hover {
+  background-color: #f1f1f1;
+  width: 140px;
+  padding: 10px 0 10px 10px;
+}
+
+.fa-map-marker-alt {
+  font-size: 12px;
+  color: #227eff;
+}
+
+.fa-archive {
+  font-size: 12px;
+  color: #7e42f5;
+}
+
+.fa-shopping-cart {
+  font-size: 12px;
+  color: #2e4457;
+}
+
+.fa-chevron-down {
+  font-size: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.location:nth-child(2):hover {
+  background-color: #edf2f7;
+  border-radius: 4px;
+}
+
+.location:nth-child(1):hover {
+  background-color: #edf2f7;
+  border-radius: 4px;
+}
+
+.location-text {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.Link {
+  text-decoration: none;
+  color: #000;
+}
+
+.product-details-container {
+  margin: 16px 16px;
+}
+
+.product-text {
+  color: #212c3d;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  color: #627483;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.product-amount-range {
+  font-size: 16px;
+  font-weight: 700;
+  color: #212c3d;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.product-piece {
+  font-size: 12px;
+  font-weight: 400;
+  color: #627483;
+}
+
+.hr-line {
+  border: 3px solid #f1f1f1;
+}
+
+.product-description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+  cursor: pointer;
+}
+
+.product-description-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.review-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.review-header-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.review-view-all {
+  font-size: 14px;
+  font-weight: 400;
+  color: #227eff;
+  cursor: pointer;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 16px;
+}
+
+.rating-icons {
+  margin-right: 7px;
+}
+
+.fa-star {
+  font-size: 12px;
+}
+
+.fa-star:nth-child(1) {
+  color: #ffca42;
+}
+
+.fa-star:nth-child(2) {
+  color: #ffca42;
+}
+
+.fa-star:nth-child(3) {
+  color: #ffca42;
+}
+
+.fa-star:nth-child(4) {
+  color: #eeeff2;
+}
+
+.fa-star:nth-child(5) {
+  color: #eeeff2;
+}
+
+.rating-score {
+  font-size: 12px;
+  font-weight: 500;
+  color: #212c3d;
+  margin-top: 17px;
+}
+
+.rating-text-wrapper {
+  margin: 0 16px;
+}
+
+.rating-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #627483;
+}
+
+.reviewer-img-wrapper {
+  display: flex;
+  margin: 0 16px;
+  align-items: center;
+}
+
+.reviewer-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.reviewer-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtotal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.subtotal-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.subtotal-price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.total-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #212c3d;
+}
+
+.checkout-hr {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid #f9fafc;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.recent-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.recent-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212c3d;
+}
+
+.recent-view {
+  font-size: 14px;
+  font-weight: 400;
+  color: #227eff;
+  cursor: pointer;
+}

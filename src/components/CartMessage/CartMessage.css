@@ -1,0 +1,29 @@
+.cart-add-message-wrapper {
+  position: absolute;
+  width: 85vw;
+  top: 50px;
+  border: 1px solid #93ecc1;
+  border-radius: 4px;
+  background-color: #d3fde9;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+  padding: 0 16px;
+}
+
+.cart-add-message {
+  font-size: 14px;
+  color: #023b20;
+}
+
+.cart-add-message-wrapper .fa-times {
+  font-size: 12px;
+  color: #071827;
+  cursor: pointer;
+}
+
+.cart-add-message-wrapper.hide {
+  display: none;
+}
